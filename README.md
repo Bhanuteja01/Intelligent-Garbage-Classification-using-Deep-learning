@@ -47,7 +47,10 @@ git clone https://github.com/your-username/intelligent-garbage-classification.gi
 ```bash
 pip install tensorflow numpy pandas matplotlib jupyter
 ```
-
+3. run the application locally
+   ```bash
+python app.py
+```
 ## Dataset
 
 The success of deep learning models heavily relies on the quality and diversity of the dataset used for training. You can use existing garbage classification datasets or create your own dataset by collecting images of different garbage items and labeling them into respective categories.
