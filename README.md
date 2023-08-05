@@ -6,6 +6,7 @@
 This project aims to create an intelligent garbage classification system using deep learning techniques. The system will automatically classify different types of garbage into predefined categories such as recyclable, non-recyclable, organic, and hazardous waste. Deep learning models, specifically Convolutional Neural Networks (CNNs), will be utilized to achieve high accuracy in garbage classification.
 
 ## DEMO VIDEO
+[![Watch the video](https://img.youtube.com/vi/4CvnbXI4azM/maxresdefault.jpg)](https://youtu.be/4CvnbXI4azM)
 
 ## Table of Contents
 
