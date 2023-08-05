@@ -48,8 +48,8 @@ git clone https://github.com/your-username/intelligent-garbage-classification.gi
 pip install tensorflow numpy pandas matplotlib jupyter
 ```
 3. run the application locally
-   ```bash
-python app.py
+```bash
+ python app.py
 ```
 ## Dataset
 
