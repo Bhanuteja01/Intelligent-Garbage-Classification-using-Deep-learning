@@ -96,6 +96,12 @@ Evaluate the trained model on a separate test dataset to measure its performance
 
 Once the model is trained and evaluated, you can deploy it for intelligent garbage classification. The model can be integrated into a garbage collection system or embedded within smart waste bins to automatically sort the garbage.
 
+## Team
+
+- BHANUTEJA (Leader)
+- SATHISH (Member)
+- MANASA (Member)
+- PAVANI (Member)
 
 ## License
 
