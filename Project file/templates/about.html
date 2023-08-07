@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About US</title>
+    <link rel="stylesheet" href="/Static/Css/about.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Css/about.css') }}">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">GARBAGE CLASSIFICATION</div>
+            <ul class="menu">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('classify') }}">Image Prediction</a></li>
+                <li><a href="{{ url_for('team') }}">Team</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="problem">
+                <div class="web-title">
+                     Problem
+                </div>
+                <p>
+                    The accumulation of solid waste in the urban area is becoming a great concern, and it would result in environmental pollution and may be hazardous to human health if it is not properly managed. It is important to have an advanced/intelligent waste management system to manage a variety of waste materials.
+                </p>
+                <p>
+                    One of the most important steps of waste management is the separation of the waste into the different components and this process is normally done manually by hand-picking. To simplify the process, we propose an intelligent waste material classification system, which is developed by using the 50-layer residual net pre-train (ResNet-50) Convolutional Neural Network model which is a machine learning tool and serves as the extractor, and Support Vector Machine (SVM) which is used to classify the waste into different groups/types such as glass, metal, paper, and plastic etc.
+                </p>
+                <p>
+                    The proposed system is tested on the trash image dataset which was developed by Gary Thung and Mindy Yang, and is able to achieve an accuracy of 87% on the dataset. The separation process of the waste will be faster and intelligent using the proposed waste material classification system without or reducing human involvement.
+                </p>
+            </div>
+            <div class="solution">
+                <div class="web-title">
+                     Solution: 
+                </div>
+                <p>
+                    The present way of separating waste/garbage is the hand-picking method, whereby someone is employed to separate out the different objects/materials. The person, who separate waste, is prone to diseases due to the harmful substances in the garbage. With this in mind, it motivated us to develop an automated system which is able to sort the waste. and this system can take short time to sort the waste, and it will be more accurate in sorting than the manual way. With the system in place, the beneficial separated waste can still be recycled and converted to energy and fuel for the growth of the economy.
+                </p>
+                <p>
+                    The system that is developed for the separation of the accumulated waste is based on the combination of Convolutional Neural Network (CNN) and Support Vector Machine (SVM) which can accurately identify and sort various types of waste materials. By promoting the use of intelligent garbage classification, we aim to optimize waste management practices, reduce the amount of waste sent to landfills, and increase recycling rates, contributing to a cleaner and more sustainable environment.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

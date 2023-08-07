@@ -1,0 +1,102 @@
+* {
+    background-image: none;
+}
+
+body {
+    background-image: url('/Static/Images/About.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.web-title {
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px; /* Add margin to create space for the navigation bar */
+}
+
+.web-title h2 {
+    margin-top: 8%;
+    color: navy;
+}
+
+.web-title p {
+    color: black;
+    margin-top: 5%;
+    font-size: larger;
+    font-style: inherit;
+    text-align: center;
+    font-family: cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav .logo {
+    font-size: 18px;
+    font-weight: inherit;
+    color: rgb(0, 255, 242);
+}
+
+nav ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul.menu li {
+    margin: 0 10px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: rgb(253, 252, 251);
+    font-size: 18px;
+    transition: all 0.3s ease;
+    padding: 10px 0;
+}
+
+nav ul.menu li a:hover {
+    border-bottom: 2px solid whitesmoke;
+}
+
+.main {
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px; /* Add padding to the top to create space for the navigation bar */
+}
+
+.problem, .solution {
+    flex: 0 0 calc(50% - 10px); /* Each section div will take 50% width of the container minus spacing */
+    padding: 20px;
+    border: 1px solid #07f8b0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.problem p, .solution p {
+    text-align: justify; /* Justify text in both problem and solution sections */
+}
